@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <title>Number Flip Counter</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Cheque</h1>
+    <div id="counter1" class="counter" data-api="api/NumberGenerator/Cheque" data-digits="5"></div>
+    <br /><br /><br /><br /><br /><br />
+
+    <h1>Online</h1>
+    <div id="counter2" class="counter" data-api="api/NumberGenerator/Online" data-digits="9"></div>
+    <br /><br /><br /><br /><br /><br />
+
+    <h1>ATM</h1>
+    <div id="counter3" class="counter" data-api="api/NumberGenerator/ATM" data-digits="8"></div>
+    <br /><br /><br /><br /><br /><br />
+
+    <h1>Card</h1>
+    <div id="counter4" class="counter" data-api="api/NumberGenerator/Card" data-digits="5"></div>
+    <br /><br /><br /><br /><br /><br />
+
+    <h1>Remittance</h1>
+    <div id="counter5" class="counter" data-api="api/NumberGenerator/Remittance" data-digits="5"></div>
+    <br /><br /><br /><br /><br /><br />
+
+    <a src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"/>
+
+    <script type="text/javascript" src="counter.js"></script>
+
+<!-- Visual Studio Browser Link -->
+<script type="text/javascript" src="https://localhost:44399/2956131386534f47933496628c22cb48/browserLink" async="async" id="__browserLink_initializationData" data-requestId="5f3855e95b2c431d86681f7f56c7aa5d" data-requestMappingFromServer="False"></script>
+<!-- End Browser Link -->
+
+<script src="/_framework/aspnetcore-browser-refresh.js"></script></body>
+
+</html>
